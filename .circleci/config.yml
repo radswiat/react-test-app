@@ -34,4 +34,4 @@ jobs:
 
       - run:
           name: Send coverage to codeclimate
-          command: CODECLIMATE_REPO_TOKEN= node node_modules/codeclimate-test-reporter/bin/codeclimate.js < ./coverage/lcov.info
+          command: CODECLIMATE_REPO_TOKEN=b9b5e226eb6c30b12684b4053c82a3a7f15f8292c94cc96f91def25f910d8701 node node_modules/codeclimate-test-reporter/bin/codeclimate.js < ./coverage/lcov.info

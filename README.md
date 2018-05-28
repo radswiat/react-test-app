@@ -3,7 +3,11 @@
   
   # Simple app <img width="55px" height="55px" src="https://dl2.macupdate.com/images/icons256/52661.png?d=1519663273">
   
-  **v. 1.0.0**
+  **v. 1.0.1**
+    
+  [![Maintainability](https://api.codeclimate.com/v1/badges/9afa7ea743b24b5dc83a/maintainability)](https://codeclimate.com/github/radswiat/react-test-app/maintainability)
+  
+  [![Test Coverage](https://api.codeclimate.com/v1/badges/9afa7ea743b24b5dc83a/test_coverage)](https://codeclimate.com/github/radswiat/react-test-app/test_coverage)  
     
   [Change log](CHANGES.md)
 
