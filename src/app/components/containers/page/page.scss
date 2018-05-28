@@ -1,0 +1,19 @@
+@import '~core/abstracts/abstracts';
+
+.page {
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    background: #F0F3F9;
+    flex: 1;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    max-width: 1024px;
+    flex: 1;
+  }
+}

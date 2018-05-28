@@ -1,0 +1,9 @@
+{
+  "fileServerFolder": "./test/e2e/cypress/bin",
+  "fixturesFolder": "./test/e2e/cypress/bin/fixtures",
+  "screenshotsFolder": "./test/e2e/cypress/bin/screenshots",
+  "pluginsFile": "./test/e2e/cypress/bin/plugins",
+  "supportFile": "./test/e2e/cypress/bin/support",
+  "videosFolder": "./test/e2e/cypress/bin/videos",
+  "integrationFolder": "./integration-tests"
+}

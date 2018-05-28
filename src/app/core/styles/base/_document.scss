@@ -1,0 +1,14 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  @include regular();
+  font-size: 16px;
+  line-height: 21px;
+  color: $dark-grey;
+}
+
+* {
+  box-sizing: border-box;
+}

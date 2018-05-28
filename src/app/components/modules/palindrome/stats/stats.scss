@@ -1,0 +1,26 @@
+@import '~core/abstracts/abstracts';
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0px 20px 20px 20px;
+  background: $white;
+  border: 1px solid $light-grey;
+  border-width: 1px 0px 1px 0px;
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid $light-grey;
+    border-width: 0px 0px 1px 0px;
+  }
+
+  &__col {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: $medium-grey;
+  }
+}

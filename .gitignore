@@ -1,0 +1,11 @@
+.DS_STORE/
+.DS_Store/
+.idea/
+node_modules/
+coverage/
+build/
+*.log
+package-lock.json
+npm-debug.log.*
+npm-debug.log
+.build-info/

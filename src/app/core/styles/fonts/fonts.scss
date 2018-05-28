@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+
+$path: '../core/styles/fonts/fonts';
+
+@font-face {
+  font-family: 'BT-regular';
+  src: url('#{$path}/bttv_rg-webfont.eot'),
+  url('#{$path}/bttv_rg-webfont.woff') format('woff'),
+  url('#{$path}/bttv_rg-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BT-bold';
+  src: url('#{$path}/bttv_bd-webfont.eot'),
+  url('#{$path}/bttv_bd-webfont.woff') format('woff'),
+  url('#{$path}/bttv_bd-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BT-light';
+  src: url('#{$path}/bttv_lt-webfont.eot'),
+  url('#{$path}/bttv_lt-webfont.woff') format('woff'),
+  url('#{$path}/bttv_lt-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BT-icons';
+  src: url('#{$path}/bt-icons.eot'),
+  url('#{$path}/bt-icons.woff') format('woff'),
+  url('#{$path}/bt-icons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,64 @@
+@import '~core/abstracts/abstracts';
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+
+  &__element {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    max-width: 290px;
+    color: $dark-grey;
+    font-size: 18px;
+    @include light();
+  }
+
+  &__error {
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+    color: $pink;
+    @include bold();
+    background: lighten($pink, 50);
+    border: 1px solid $pink;
+  }
+
+  &__input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid $light-grey;
+    @include light();
+    padding: 0px 8px;
+  }
+
+  &__label {
+    font-size: 22px;
+    @include light();
+    color: $dark-grey;
+  }
+
+  &__submit {
+    background: $blue;
+    height: 30px;
+    color: $white;
+    flex: 1;
+    @include light;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+
+    &--disabled {
+      background: $medium-grey;
+    }
+  }
+
+  &__separator {
+    width: 50px;
+  }
+
+}

@@ -1,0 +1,10 @@
+@mixin breakpoint($width) {
+  @if map-has-key($breakpoints, $width) {
+    $width: map-get($breakpoints, $width);
+    @media only screen and (min-width: $width) {
+      @content;
+    }
+  } @else {
+    @error 'Breakpoint `#{$width}` is not recognized';
+  }
+}

@@ -1,0 +1,14 @@
+@mixin regular() {
+  font-family: 'BT-regular';
+  font-weight: normal;
+}
+
+@mixin bold() {
+  font-family: 'BT-bold';
+  font-weight: normal;
+}
+
+@mixin light() {
+  font-family: 'BT-light';
+  font-weight: normal;
+}

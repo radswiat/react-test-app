@@ -1,0 +1,10 @@
+// core is already imported as global
+// do not put core imports inside :global !!
+@import '~core/main';
+@import '~core/grid/flex';
+
+:global {
+  body {
+    background: #515e67;
+  }
+}
