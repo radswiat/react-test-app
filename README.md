@@ -40,6 +40,8 @@
 3. Visit: `localhost:3000`
 3. Make sure simple-app-server is running
 
+`mac preffered for npm start, not tested on windows!`
+
 ## Run unit tests
 
 `npm run start:tests`
